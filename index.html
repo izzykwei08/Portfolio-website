@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">L</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Nii Kwei Dagadu
+                    </h1>
+                    <p>
+                        Passion for Cloud Computing and Network Solutions. With a solid foundation in electrical systems, network principles and hands-on experience in designing and implementing Azure-based solutions, I have honed my skills in a variety of challenging environments. <span>I'm interested in AI topics which is why i also add things like ChatGPT into my projects these days.</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button black">
+                            View Resume
+                        </a>
+                        <a href="#" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">
+                            <img src="./imgs/github.png" alt="GitHub" width="48" />
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/hero-image.png" alt="Nii Kwei Dagadu" width="100%" />
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="js" width="128" />
+                    <img src="./imgs/sass.png" alt="Sass" width="128" />
+                    <img src="./imgs/react.png" alt="React" width="128" />
+                    <img src="./imgs/nextjs.png" alt="Next JS" width="128" />
+                    <img src="./imgs/azure.png" alt="Azure" width="128" />
+                    <img src="./imgs/vscode.png" alt="VS Code" width="128" />
+                    <img src="./imgs/python.png" alt="Python" width="128" />
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="js" width="128" />
+                    <img src="./imgs/sass.png" alt="Sass" width="128" />
+                    <img src="./imgs/react.png" alt="React" width="128" />
+                    <img src="./imgs/nextjs.png" alt="Next JS" width="128" />
+                    <img src="./imgs/azure.png" alt="Azure" width="128" />
+                    <img src="./imgs/vscode.png" alt="VS Code" width="128" />
+                    <img src="./imgs/python.png" alt="Python" width="128" />
+                </div>
+            </div>
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>I'm an Nii Kwei Dagadu with a passion for cloud computing and network solutions. With a solid foundation in electrical systems, network principles and hands-on experience in designing and implementing Azure-based solutions, I have honed my skills in a variety of challenging environments.</p>
+                    <p>At present, I am immersing myself in the Azure Administrator course (AZ-104), expanding my knowledge and skills in cloud administration. Concurrently, I am engaged in an exciting project where I am leveraging React and Next.js to construct a visually appealing portfolio website. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Work Experience
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-1.jpg" alt="Workplace 1 - Proximity Datacenter" width="100%" />
+                            <figcaption>
+                                Workplace - 1 Proximity Datacenter
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Proximity Datacenter</h3>
+                    <div>2020 - Present</div>
+                    <p>Ensuring the smooth operation of server and network systems in the data center. My role involves installation, maintenance, troubleshooting of equipment, and safeguarding data integrity. I strive to minimize downtime and optimize data center performance.
+                    </p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-2.jpg" alt="Workplace 2 - John Howard Center" width="100%" />
+                            <figcaption>
+                                Workplace - 2 John Howard Center
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>John Howard Center</h3>
+                    <div>2017 - 2020</div>
+                    <p>Entrusted with the responsibility of supervising daily operations, contributing to audits, and ensuring the timely completion of tasks via Maximo. I was instrumental in assigning reactive tasks to engineers, maintaining the serviceability of network equipment, and enforcing adherence to health and safety regulations among subcontractors. </p>
+                </article> 
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-3.jpg" alt="Workplace 3 - Manhattan Loft Gardens" width="100%" />
+                            <figcaption>
+                                Workplace - 3 Manhattan Loft Gardens
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Manhattan Loft Gardens</h3>
+                    <div>2016 - 2017</div>
+                    <p>Handled electrical wiring, diagnose electrical issues, install network infrastructure, and adhere to safety codes. I also manage network patching schedules and work on equipment installation from various heights.</p>
+                </article>
+            </div>
+        </section>
+        <section class="bento">
+            <h2>
+                <small>
+                    Previous
+                </small>
+                Completed Projects
+            </h2>
+        </section>
+    </main>
+</body>
+</html>
